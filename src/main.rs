@@ -1,7 +1,4 @@
-// (CIDR) is an IP address allocation method.
-//Todo 7- Add TUI
-//Todo 8- Make it into a service
-//Todo 9- Make it to a MCP server 
+// (CIDR) is an IP address allocation method. 
 
 mod prefix;
 mod subnet;
