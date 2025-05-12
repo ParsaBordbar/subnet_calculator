@@ -57,7 +57,3 @@ cargo run
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-
-### 💡 Pro Tip
-
-Always double-check your subnet calculations, especially when designing complex network infrastructures!
