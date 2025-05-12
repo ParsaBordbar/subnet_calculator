@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/bc8126ac-f2f9-48e8-871c-1b2933278a95)
 
-# SUB-NET CALCULATE
+# SUB-NET CALCULATOR
 
 ## Overview
 I was'nt so good at allocating subnets So, I write it with rust!
