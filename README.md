@@ -15,11 +15,6 @@ This Rust-based CIDR (Classless Inter-Domain Routing) Subnet Calculator is a com
 - Support for multiple subnet allocations
 - Detailed subnet information output
 
-## Prerequisites
-
-- Rust Programming Language (latest stable version recommended)
-- Cargo (Rust's package manager)
-
 ## Installation
 
 ### Run it Via Binnary 
@@ -36,6 +31,11 @@ run the binnary
 just run the subnet.exe
 
 ### Build It yourself
+
+#### Prerequisites
+
+- Rust Programming Language (latest stable version recommended)
+- Cargo (Rust's package manager)
 
 ```bash
 git clone https://github.com/yourusername/cidr-subnet-calculator.git
