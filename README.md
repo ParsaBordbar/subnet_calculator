@@ -28,7 +28,7 @@ This Rust-based CIDR (Classless Inter-Domain Routing) Subnet Calculator is a com
 
 just run the binnary
 ```bash
-    ./subnet
+./subnet
 ```
 
 ### Clone the Repository
