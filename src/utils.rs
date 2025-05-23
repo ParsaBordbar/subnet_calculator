@@ -7,3 +7,9 @@ pub fn input(input_text: &str) -> String {
     stdin.read_line(&mut name).expect("Error getting the input");
     name.trim().to_string()
 }
+
+pub fn wait_for_exit() {
+    println!("\nPress Enter to exit...");
+    let mut _ = String::new();
+    io::stdin().read_line(&mut _).expect("Error waiting for exit");
+}
