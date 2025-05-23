@@ -13,16 +13,16 @@ pub struct SubnetRequest {
     prefix: u8,
 }
 
-impl SubnetRequest {
-    pub fn new_subnet(requested_host_count: u32,
-         requested_client_address: u32, prefix: u8) -> Self {
-            Self {
-            requested_host_count,
-            requested_client_address,
-            prefix,
-        }
-    }
-}
+// impl SubnetRequest {
+//     pub fn new_subnet(requested_host_count: u32,
+//          requested_client_address: u32, prefix: u8) -> Self {
+//             Self {
+//             requested_host_count,
+//             requested_client_address,
+//             prefix,
+//         }
+//     }
+// }
 
 pub fn subnets(count: u32) -> Vec<SubnetRequest> {
     let mut subnets = Vec::with_capacity(count as usize);

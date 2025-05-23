@@ -15,7 +15,6 @@ use crate::subnet::{
     display_subnet_allocation,
 };
 use crate::cidr::{
-    CidrInfo,
     parse_cidr
 };
 

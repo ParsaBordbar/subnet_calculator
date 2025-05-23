@@ -1,13 +1,13 @@
 use std::net::Ipv4Addr;
 
-pub fn hosts_from_prefix(prefix: u8) -> u32 {
-    match prefix {
-        31 => 2,
-        32 => 1,
-        _ if prefix < 31 => 2u32.pow((32 - prefix) as u32) - 2, // Normal case: 2^(32-prefix) - 2
-        _ => 0,
-    }
-}
+// pub fn hosts_from_prefix(prefix: u8) -> u32 {
+//     match prefix {
+//         31 => 2,
+//         32 => 1,
+//         _ if prefix < 31 => 2u32.pow((32 - prefix) as u32) - 2, // Normal case: 2^(32-prefix) - 2
+//         _ => 0,
+//     }
+// }
 
 pub fn prefix_from_hosts(hosts: u32) -> u8 {
     match hosts {

@@ -10,6 +10,6 @@ pub fn input(input_text: &str) -> String {
 
 pub fn wait_for_exit() {
     println!("\nPress Enter to exit...");
-    let mut _ = String::new();
-    io::stdin().read_line(&mut _).expect("Error waiting for exit");
+    let mut key = String::new();
+    io::stdin().read_line(&mut key).expect("Error waiting for exit");
 }
