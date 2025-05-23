@@ -5,7 +5,10 @@ mod subnet;
 mod utils;
 mod cidr;
 
-use crate::utils::input;
+use crate::utils::{
+    input,
+    wait_for_exit,
+};
 use crate::subnet::{
     subnets,
     subnet_allocator,
@@ -42,6 +45,7 @@ fn main() {
             let allocated_subnets = subnet_allocator(subnets, info.network);
             
             display_subnet_allocation(&allocated_subnets);
+            wait_for_exit();
         }
         Err(e) => {
             eprintln!("Error: {}", e);
