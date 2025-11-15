@@ -1,4 +1,4 @@
-<img width="1232" height="228" alt="subnet_calculator" src="https://github.com/user-attachments/assets/ee85f9e8-2eba-41b8-bb43-bb7d3b8462ee" />
+<img width="1160" height="228" alt="subnet" src="https://github.com/user-attachments/assets/c809b9ff-1894-451f-894d-1369e78fb631" />
 
 
 ## Overview
