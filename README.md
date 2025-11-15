@@ -1,9 +1,10 @@
 <img width="1160" height="228" alt="subnet" src="https://github.com/user-attachments/assets/c809b9ff-1894-451f-894d-1369e78fb631" />
 
 
-## Overview
-I was'nt so good at allocating subnets So, I write it with rust!
+I wasn't good at allocating subnets So, I wrote it with rust!
+
 What is this this tool exactly? 
+
 This Rust-based CIDR (Classless Inter-Domain Routing) Subnet Calculator is a command-line tool designed to help network administrators and IT professionals efficiently plan and allocate IP network subnets.
 
 ![image](https://github.com/user-attachments/assets/bc8126ac-f2f9-48e8-871c-1b2933278a95)
