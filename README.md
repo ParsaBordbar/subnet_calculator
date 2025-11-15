@@ -1,6 +1,5 @@
 <img width="1232" height="228" alt="subnet_calculator" src="https://github.com/user-attachments/assets/ee85f9e8-2eba-41b8-bb43-bb7d3b8462ee" />
 
-# SUBNET CALCULATOR
 
 ## Overview
 I was'nt so good at allocating subnets So, I write it with rust!
